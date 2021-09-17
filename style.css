@@ -21,8 +21,39 @@
 .navigation{
     background-color: aqua;
     height: 50px;
-
     padding: 10px;
     max-width: 960px;
     margin: 20px auto 0;
+
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+#navigation_li{
+    background-color: rgb(0, 195, 255);
+    display: inline;
+    margin: 0 20px 0 10px;
+}
+#navigation_a{
+    color:black;
+    font-size:large;
+    text-decoration: none;
+    text-align: center;
+}
+#navigation_a:hover{
+    background-color: rgba(0, 255, 255, 0.705);
+}
+.content{
+    padding: 10px;
+    max-width: 960px;
+    margin: auto;
+    height: auto;
+}
+footer{
+    width:100%;
+    background-color:cornflowerblue;
+    height: 60px;
+    padding: 10px;
+    
 }
