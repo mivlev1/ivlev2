@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header" id="Header">
+    <header id="Header">
+        <div class="title">
             <img class="logo" src="img/logo.png" alt="page logo">
             <div class="text_block">
                     Название сайта
@@ -19,13 +19,13 @@
     <nav>
         <ul id="navigation">
                 <li>
-                    <a href="#Header" id="#">Шапка</a>
+                    <a href="#Header">Главная</a>
                 </li>
                 <li>
-                    <a href="#Form" id="#">Форма</a>
+                    <a href="#Form">Форма</a>
                 </li>
                 <li>
-                    <a href="#Footer" id="#">Подвал</a>
+                    <a href="#Table">Таблица</a>
                 </li>
         </ul>
     </nav>
@@ -102,8 +102,9 @@
                 <a href="/about.html">Сокращенная на внутреннюю</a>
             </li>
         </ol>
-        <h1>Таблица</h1>
-        <table >
+        <h1 id="Table">Таблица</h1>
+        <table>
+            <caption>Таблица сравнения Google и Yandex</caption>
             <tr>
                 <th id="Info">Info</th>
                 <th id="Yandex">Yandex</th>
@@ -115,15 +116,16 @@
                 <td>99999999</td>
             </tr>
             <tr>
-                <td>Качество поиска</td>
-                <td>Оптимизирован для нашего рынка</td>
-                <td>Оптимизирован для всего мира</td>
+                <td>Качество карт</td>
+                <td rowspan="2">Оптимизирован для нашего рынка</td>
+                <td>Качественные фото со спутников</td>
             </tr>
             <tr>
-                <td>Качество карт</td>
-                <td>Более качественная навигация в России</td>
-                <td>Частое обновление снимков со спутника</td>
+                <td>Качество поиска</td>
+                <td>Оптимизирован для всего мира</td>
+                
             </tr>
+          
             <tr>
                 <td>Сервис Почта</td>
                 <td colspan="2">Нельзя выделить особенности</td>
@@ -189,7 +191,7 @@
             </label>
         </form>
     </div>
-    <footer id="Footer">
+    <footer>
         <p>Ивлев Максим 2021 год</p>
     </footer>
 </body>
