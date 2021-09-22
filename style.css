@@ -5,28 +5,29 @@ body{
 header{
     width: 100%;
     background-color: cornflowerblue;
-    padding: 10px;
     height: 120px;
 }
 
 .title{
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+    width: 100%;
 } 
 
 .text_block{
     background-color: aqua;
     height: 30px;
     padding: 10px;
-    font: 20pt verdana;     
-    
+    font: 20pt verdana;   
 }
 .logo{
     border-radius: 25%;
     height: 100px;
     width:100px;
-    margin:10px;
     float:left;
+    margin-top: 10px;
+    margin-right: 10px;
     
 }
 #navigation{
